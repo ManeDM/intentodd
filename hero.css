@@ -1,6 +1,7 @@
+
 .sec-hero{
     padding-top: 45px;
-    background-color: #d689e2;
+    background-color: #ffffff;
     margin-top: .3.5rem;
     margin-bottom: .45rem;
     box-sizing: content-box;
@@ -12,7 +13,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 32px;
     text-align: center;
     color: #7c4185;
     margin-bottom: 2rem;
@@ -26,7 +27,7 @@
     font-family: 'Roboto';
     color: #000000;
     margin: 5px 5px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
