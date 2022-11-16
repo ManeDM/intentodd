@@ -52,6 +52,9 @@
 
 
 @media (max-width: 600px){
+    .head{
+        box-sizing: border-box;
+    }
     .head_logo{
         height: 35px;
         margin-top: 3px;
