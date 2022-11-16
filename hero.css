@@ -29,12 +29,12 @@
     margin: 5px 5px;
     font-size: 20px;
     text-align: center;
+    line-height: 32px;
 }
 
 .heroimg{
     display: flex;
     justify-content: center;
     
-    
-    
 }
+

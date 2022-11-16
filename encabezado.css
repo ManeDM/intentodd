@@ -2,12 +2,16 @@
     display: flex; 
     width: 100%;
     background-color: #7c4185;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-        
+          
 }
 
+
+.bar{
+    display: none;
+    height: 40px;
+    color: #ffffff;
+}
 
 .head_logo {
      width: 190px;
@@ -21,7 +25,7 @@
     font-weight: 400;
     text-align: center;
     color: #ffffff;
-    user-select: none;    
+    text-decoration: none;  
 }
 
 .head_nav button{
@@ -31,7 +35,7 @@
     padding: 14px 20px;
     border-radius: 10px;
     border-color:#ac78ac;
-    font-size: 16px;
+    font-size: 19px;
     margin-right: 20px;
     margin-top: 2px;
     
@@ -46,4 +50,25 @@
     
 }
 
+
+@media (max-width: 600px){
+    .head_logo{
+        height: 35px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .head{
+        padding-left: 10px;
+    }
+    .head_nav{
+        display: none;
+    }
+
+    .bar{
+        height: 45px;
+        padding-right: 10px;
+    }
+    }
+    
+    
 
