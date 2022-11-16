@@ -22,7 +22,7 @@
     font-weight: 400;
     text-align: center;
     color: #ffffff;
-        
+    user-select: none;    
 }
 
 .head_nav button{
@@ -34,6 +34,7 @@
     border-color:#ac78ac;
     font-size: 16px;
     margin-right: 20px;
+    margin-top: 2px;
     
 }
 
