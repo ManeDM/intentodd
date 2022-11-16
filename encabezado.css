@@ -1,3 +1,8 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+ }
 .head {
     display: flex; 
     width: 100%;
@@ -7,7 +12,6 @@
     line-height: 18px;
     height: 80px;
     align-items: center;
-    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
     
 }
@@ -25,7 +29,8 @@
     font-weight: 400;
     text-align: center;
     text-decoration: none;
-    font-size: 17px;  
+    font-size: 17px;
+      
 }
 
 .head_nav button{
@@ -49,11 +54,13 @@
     margin-left: .7rem;
     color: #ffffff;
     text-decoration: none;
-    
-    
-    
+
 }
 
+.head_link a{
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /*Menu Hamburguesa*/
 
@@ -85,21 +92,33 @@
     transform: rotate(45deg) translate(-2px, 1px);
 }
 
-.activeline2_bars-menu{
+.activeline2_bars_menu{
     opacity: 0;
-    margin-left: 30px;
+    margin-left: -40px;
 }
 
 .activeline3_bars_menu{
     transform: rotate(-45deg) translate(-4px, 2px);
 }
 
+@media (max-width: 760px) {
+    .head_nav ul li{
+        display: none;
+    }
 
-@media (max-width: 600px) {
     .bars_menu{
         display: block;
         position: relative;
-        margin: 70px 70px 0 0;
+        margin: 55px 75px 0 0;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .bars_menu{
+        display: block;
+        position: relative;
+        margin: 55px 75px 0 0;
     }
 
     .head_link{
